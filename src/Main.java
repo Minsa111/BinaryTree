@@ -10,9 +10,9 @@ public class Main {
 
         System.out.println("\nIn Order\t: ");
         tree.inOrder( tree.root );
-        System.out.println("\nPre Order\t: ");
-        tree.preOrder( tree.root );
         System.out.println("\nPost Order\t:");
         tree.postOrder( tree.root );
+        System.out.println("\nPre Order\t: ");
+        tree.preOrder( tree.root );
     }
 }
